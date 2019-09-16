@@ -1,0 +1,229 @@
+
+header{
+  padding: 30px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+header a {
+  color: #4C44C1;
+  text-decoration: none;
+}
+
+/* keeps track of the element inside of it without being floated */
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+
+header .logo img {
+  width: 40px;
+}
+
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 12px;
+
+}
+
+header .menu a {
+  text-transform: uppercase;
+  margin-right: 35px;
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 12px;
+}
+
+header .header-buttons .blue-btn {
+  background: #6066F2;
+  padding: 10px 26px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+  -moz-box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+  box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+}
+header .header-buttons .blue-btn .fas {
+  margin-left: 8px;
+}
+
+header .header-buttons .orange-btn {
+  background: #FEA83B;
+  padding: 10px 26px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  -webkit-box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+  -moz-box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+  box-shadow: 7px 9px 7px 1px rgba(0,0,0,0.46);
+}
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+
+}
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1024px) {
+  header{
+    padding: 28px 32px;
+  }
+  #top-jumbo header .container-fluid .logo{
+   width: 5%;
+ }
+
+ #top-jumbo header .container-fluid .menu{
+   width: 60%;
+ }
+
+ header .menu a {
+   font-size: 1.2rem;
+   margin-right: 10px;
+ }
+
+header .header-buttons {
+  top: 12px;
+}
+
+ header .header-buttons .blue-btn,
+ header .header-buttons .orange-btn {
+   padding: 10px 10px;
+ }
+}
+
+@media only screen and (max-width: 926px) {
+  header{
+    padding: 22px 28px;
+  }
+
+ header .menu a {
+   font-size: 0.8rem;
+   margin-right: 8px;
+ }
+
+ header .header-buttons .blue-btn,
+ header .header-buttons .orange-btn {
+   padding: 7px 7px;
+ }
+}
+
+@media only screen and (max-width: 879px) {
+
+ header .header-buttons .blue-btn,
+ header .header-buttons .orange-btn {
+   padding: 6px 6px;
+   font-size: 0.6rem;
+ }
+ header .header-buttons {
+   top: 10px;
+ }
+}
+/* LAPTOPS DEVICES to phones*/
+
+@media only screen and (max-width: 768px) {
+  header{
+    padding: 10px 10px;
+  }
+  #top-jumbo header .container-fluid .logo{
+   width: 5%;
+ }
+
+ #top-jumbo header .container-fluid .menu{
+   width: 60%;
+ }
+
+ header .menu a {
+   font-size: 0.8rem;
+   margin-right: 5px;
+ }
+
+header .header-buttons {
+  top: 10px;
+}
+
+ header .header-buttons .blue-btn,
+ header .header-buttons .orange-btn {
+   padding: 6px 6px;
+ }
+ }
+
+ @media only screen and (max-width: 675px) {
+
+   header .header-buttons {
+     top: 10px;
+   }
+  header .header-buttons .blue-btn,
+  header .header-buttons .orange-btn {
+    padding: 4px 4px;
+    font-size: 10px;
+  }
+
+}
+
+  @media only screen and (max-width: 601px) {
+
+    header .header-buttons {
+      top: -3px;
+    }
+
+   }
+
+   @media only screen and (max-width: 587px) {
+
+     header .menu a {
+       font-size: 0.55rem;
+       margin-right: 5px;
+     }
+    }
+
+   @media only screen and (max-width: 500px) {
+
+     header .menu a {
+       font-size: 0.5rem;
+       margin-right: 5px;
+     }
+
+    }
+
+    @media screen and (min-width:360px){
+      header{
+        width: 100%;
+      }
+      header .logo {
+        width: 10%;
+      }
+      header .menu {
+        width: 50%;
+      }
+      header .menu a {
+        font-size: 0.3rem;
+        margin-right: 3px;
+      }
+      header .header-buttons {
+        width: 40%;
+      }
+      header .header-buttons .blue-btn,
+      header .header-buttons .orange-btn {
+        padding: 4px 4px;
+        font-size: 0.4rem;
+      }
+    }
+
+
+
+}

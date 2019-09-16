@@ -1,0 +1,67 @@
+footer {
+  background: #6060F2;
+  padding: 80px 0;
+  color: white;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer h2 span {
+  color: #FEA83B;
+  font-weight: 700;
+}
+
+footer .menu {
+  margin-bottom: 20px;
+}
+
+footer .menu li{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+footer .menu li a {
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: .8rem;
+}
+
+footer p {
+  font-size: .8rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+footer .social-media li {
+  display: inline-block;
+  padding: 0 10px;
+
+}
+
+footer .social-media li a {
+  color: #E6CDF9;
+  color: white;
+  opacity: .5;
+  font-size: 2rem;
+}
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+
+}
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+
+}
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 767px) {
+
+}
